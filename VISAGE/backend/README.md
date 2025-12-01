@@ -1,2 +1,0 @@
-# Backend Module
-FastAPI backend.
