@@ -1,0 +1,32 @@
+name: visage
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - jupyter
+  - opencv
+  - pillow
+  - scikit-image
+  - faiss-cpu
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - sqlite
+
+  - pip:
+      - transformers
+      - sentence-transformers
+      - diffusers
+      - accelerate
+      - xformers
+      - chromadb
+      - fastapi
+      - uvicorn
+      - pydantic
+      - python-dotenv
+      - requests
+      - httpx
